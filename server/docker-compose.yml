@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  server:
+    build:
+      context: ./
+    ports:
+      - "3000:3000"
+    volumes:
+       - /tmp/landscape/server:/var/lib/mysql/data
+       - /etc/hosts:/etc/hosts

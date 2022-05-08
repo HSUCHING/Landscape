@@ -1,0 +1,775 @@
+---
+landscape:
+- tab: 悟系列产品图景
+  tab_index: 0
+  url: SHDATAProduct
+  name: 悟系列产品图景
+  short_name: SHDATAProduct
+  title: SHDATAProduct
+  categories:
+  - category: 行业应用
+    name: 行业应用
+    color: rgb(109,61,143)
+    subcategories:
+    - subcategory:
+      name: 政府行业
+      items:
+      - item:
+        name: OpenYurt
+        description: >-
+           OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+           强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+           Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+           Serverless/FaaS、异构资源支持等能力。OpenYurt
+           能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+        homepage_url: 'https://github.com/alibaba/openyurt'
+        repo_url: 'https://github.com/alibaba/openyurt'
+        isopen: true
+        isnative: true
+        logo: app/edge/OpenYurt.png
+        filter:
+          - nation
+          - apache
+      - item:
+        name: KubeEdge
+        description: >-
+           KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+           它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+           2.0的许可。并且完全免费供个人或商业使用。
+        homepage_url: 'https://github.com/alibaba/openyurt'
+        repo_url: https://github.com/kubeedge/kubeedge
+        isopen: true
+        isnative: true
+        official: false
+        logo: app/edge/KubeEdge.png
+        tags:
+        - name: CNCF
+          value: 毕业
+        - name: LF
+          value: 项目
+        - name: OPS
+          value: 开源软件
+        filter:
+          - foreign
+          - alibaba
+          - cncf
+          - Shanghai
+      - item:
+        name: OpenYurt
+        description: >-
+          OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+          强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+          Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+          Serverless/FaaS、异构资源支持等能力。OpenYurt
+          能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+        homepage_url: 'https://github.com/alibaba/openyurt'
+        repo_url: 'https://github.com/alibaba/openyurt'
+        isopen: true
+        isnative: true
+        logo: app/edge/OpenYurt.png
+        filter:
+          - nation
+          - apache
+      - item:
+        name: KubeEdge
+        description: >-
+          KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+          它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+          2.0的许可。并且完全免费供个人或商业使用。
+        homepage_url: 'https://github.com/alibaba/openyurt'
+        repo_url: https://github.com/kubeedge/kubeedge
+        isopen: true
+        isnative: true
+        official: false
+        logo: app/edge/KubeEdge.png
+        tags:
+          - name: CNCF
+            value: 毕业
+          - name: LF
+            value: 项目
+          - name: OPS
+            value: 开源软件
+            address: Beijing
+        filter:
+          - foreign
+          - alibaba
+          - cncf
+      - item:
+        name: OpenYurt
+        description: >-
+          OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+          强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+          Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+          Serverless/FaaS、异构资源支持等能力。OpenYurt
+          能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+        homepage_url: 'https://github.com/alibaba/openyurt'
+        repo_url: 'https://github.com/alibaba/openyurt'
+        isopen: true
+        isnative: true
+        logo: app/edge/OpenYurt.png
+        filter:
+          - nation
+          - apache
+      - item:
+        name: KubeEdge
+        description: >-
+          KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+          它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+          2.0的许可。并且完全免费供个人或商业使用。
+        homepage_url: 'https://github.com/alibaba/openyurt'
+        repo_url: https://github.com/kubeedge/kubeedge
+        isopen: true
+        isnative: true
+        official: false
+        logo: app/edge/KubeEdge.png
+        tags:
+          - name: CNCF
+            value: 毕业
+          - name: LF
+            value: 项目
+          - name: OPS
+            value: 开源软件
+            address: Beijing
+        filter:
+          - foreign
+          - alibaba
+          - cncf
+      - item:
+        name: KubeEdge
+        description: >-
+          KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+          它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+          2.0的许可。并且完全免费供个人或商业使用。
+        homepage_url: 'https://github.com/alibaba/openyurt'
+        repo_url: https://github.com/kubeedge/kubeedge
+        isopen: true
+        isnative: true
+        official: false
+        logo: app/edge/KubeEdge.png
+        tags:
+          - name: CNCF
+            value: 毕业
+          - name: LF
+            value: 项目
+          - name: OPS
+            value: 开源软件
+            address: Beijing
+        filter:
+          - foreign
+          - alibaba
+          - cncf
+    - subcategory:
+      name: 智慧城市
+      items:
+        - item:
+          name: OpenYurt
+          description: >-
+            OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+            强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+            Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+            Serverless/FaaS、异构资源支持等能力。OpenYurt
+            能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: 'https://github.com/alibaba/openyurt'
+          isopen: true
+          isnative: true
+          logo: app/edge/OpenYurt.png
+          filter:
+            - nation
+            - apache
+        - item:
+          name: KubeEdge
+          description: >-
+            KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+            它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+            2.0的许可。并且完全免费供个人或商业使用。
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: https://github.com/kubeedge/kubeedge
+          isopen: true
+          isnative: true
+          official: false
+          logo: app/edge/KubeEdge.png
+          tags:
+            - name: CNCF
+              value: 毕业
+            - name: LF
+              value: 项目
+            - name: OPS
+              value: 开源软件
+              address: Beijing
+          filter:
+            - foreign
+            - alibaba
+            - cncf
+    - subcategory:
+      name: 金融行业
+      items:
+        - item:
+          name: OpenYurt
+          description: >-
+            OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+            强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+            Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+            Serverless/FaaS、异构资源支持等能力。OpenYurt
+            能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: 'https://github.com/alibaba/openyurt'
+          isopen: true
+          isnative: true
+          logo: app/edge/OpenYurt.png
+          filter:
+            - nation
+            - apache
+        - item:
+          name: KubeEdge
+          description: >-
+            KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+            它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+            2.0的许可。并且完全免费供个人或商业使用。
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: https://github.com/kubeedge/kubeedge
+          isopen: true
+          isnative: true
+          official: false
+          logo: app/edge/KubeEdge.png
+          tags:
+            - name: CNCF
+              value: 毕业
+            - name: LF
+              value: 项目
+            - name: OPS
+              value: 开源软件
+              address: Beijing
+          filter:
+            - foreign
+            - alibaba
+            - cncf  
+  - category: 数据资产
+    name: 数据资产
+    color: rgb(46,97,107)
+    subcategories:
+      - subcategory:
+        name: 数据平台
+        items:
+          - item:
+            name: OpenYurt
+            description: >-
+              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+              Serverless/FaaS、异构资源支持等能力。OpenYurt
+              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            logo: app/edge/OpenYurt.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: KubeEdge
+            description: >-
+              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+              2.0的许可。并且完全免费供个人或商业使用。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: app/edge/KubeEdge.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+          - item:
+            name: OpenYurt
+            description: >-
+              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+              Serverless/FaaS、异构资源支持等能力。OpenYurt
+              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            logo: app/edge/OpenYurt.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: KubeEdge
+            description: >-
+              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+              2.0的许可。并且完全免费供个人或商业使用。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: app/edge/KubeEdge.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+          - item:
+            name: OpenYurt
+            description: >-
+              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+              Serverless/FaaS、异构资源支持等能力。OpenYurt
+              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            logo: app/edge/OpenYurt.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: KubeEdge
+            description: >-
+              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+              2.0的许可。并且完全免费供个人或商业使用。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: app/edge/KubeEdge.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+          - item:
+            name: KubeEdge
+            description: >-
+              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+              2.0的许可。并且完全免费供个人或商业使用。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: app/edge/KubeEdge.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+      - subcategory:
+        name: 数据加工
+        items:
+          - item:
+            name: OpenYurt
+            description: >-
+              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+              Serverless/FaaS、异构资源支持等能力。OpenYurt
+              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            logo: app/edge/OpenYurt.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: KubeEdge
+            description: >-
+              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+              2.0的许可。并且完全免费供个人或商业使用。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: app/edge/KubeEdge.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+      - subcategory:
+        name: 数据采集
+        items:
+          - item:
+            name: OpenYurt
+            description: >-
+              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+              Serverless/FaaS、异构资源支持等能力。OpenYurt
+              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            logo: app/edge/OpenYurt.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: KubeEdge
+            description: >-
+              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+              2.0的许可。并且完全免费供个人或商业使用。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: app/edge/KubeEdge.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+      - subcategory:
+        name: 数据治理
+        items:
+          - item:
+            name: OpenYurt
+            description: >-
+              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
+              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
+              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
+              Serverless/FaaS、异构资源支持等能力。OpenYurt
+              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            logo: app/edge/OpenYurt.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: KubeEdge
+            description: >-
+              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+              2.0的许可。并且完全免费供个人或商业使用。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: app/edge/KubeEdge.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+      - subcategory:
+        name: 数据分析
+        items:
+          - item:
+            name: 奥腾-数据分析系统
+            description: >-
+              奥腾-数据分析系统
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            logo: product/oceandatum-dataanalysis.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: KubeEdge
+            description: >-
+              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
+              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
+              2.0的许可。并且完全免费供个人或商业使用。
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: app/edge/KubeEdge.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+- tab: 生态伙伴图景
+  tab_index: 1
+  url: Paterner
+  name: 生态伙伴图景
+  short_name: Paterner
+  title: Paterner
+  categories:
+  - category: 战略合作伙伴
+    name: 战略合作伙伴
+    color: rgb(109,61,143)
+    subcategories:
+    - subcategory:
+      name: 上市公司
+      items:
+      - item:
+        name: 易智瑞信息技术有限公司
+        description: >-
+           易智瑞信息技术有限公司
+        homepage_url: 'https://github.com/alibaba/openyurt'
+        repo_url: 'https://github.com/alibaba/openyurt'
+        isopen: true
+        isnative: true
+        logo: partner/egis.png
+        filter:
+          - nation
+          - apache
+      - item:
+        name: 北京奇虎科技有限公司
+        description: >-
+           北京奇虎科技有限公司
+        homepage_url: 'https://github.com/alibaba/openyurt'
+        repo_url: https://github.com/kubeedge/kubeedge
+        isopen: true
+        isnative: true
+        official: false
+        logo: partner/360.png
+        tags:
+        - name: CNCF
+          value: 毕业
+        - name: LF
+          value: 项目
+        - name: OPS
+          value: 开源软件
+        filter:
+          - foreign
+          - alibaba
+          - cncf
+          - Shanghai
+    - subcategory:
+      name: 初创企业
+      items:
+        - item:
+          name: 北京九章云极科技有限公司
+          description: >-
+            北京九章云极科技有限公司
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: 'https://github.com/alibaba/openyurt'
+          isopen: true
+          isnative: true
+          logo: partner/datacanvas.png
+          filter:
+            - nation
+            - apache
+        - item:
+          name: 上海芯翌智能科技有限公司
+          description: >-
+            上海芯翌智能科技有限公司
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: https://github.com/kubeedge/kubeedge
+          isopen: true
+          isnative: true
+          official: false
+          logo: partner/xforwardai.png
+          tags:
+            - name: CNCF
+              value: 毕业
+            - name: LF
+              value: 项目
+            - name: OPS
+              value: 开源软件
+              address: Beijing
+          filter:
+            - foreign
+            - alibaba
+            - cncf
+  - category: OEM合作伙伴
+    name: OEM合作伙伴
+    color: rgb(46,97,107)
+    subcategories:
+      - subcategory:
+        name: 安全
+        items:
+          - item:
+            name: 北京安华金和科技有限公司
+            description: >-
+              北京安华金和科技有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            logo: partner/DBSEC.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: 杭州虎符网络有限公司
+            description: >-
+              杭州虎符网络有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: partner/tiger.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+      - subcategory:
+        name: 平台服务
+        items:
+          - item:
+            name: 上海奥腾计算机科技有限公司
+            description: >-
+              上海奥腾计算机科技有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            logo: partner/oceandatum.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: 上海微趣网络科技有限公司
+            description: >-
+              上海微趣网络科技有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: partner/abitio.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf
+  - category: 渠道合作伙伴
+    name: 渠道合作伙伴
+    color: rgb(46,97,107)
+    subcategories:
+      - subcategory:
+        name: 金牌渠道
+        items:
+          - item:
+            name: 阿里云计算有限公司
+            description: >-
+              阿里云计算有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            contact: 
+            logo: partner/alibabacloud.png
+            filter:
+              - nation
+              - apache
+          - item:
+            name: 腾讯云计算（北京）有限公司
+            description: >-
+              腾讯云计算（北京）有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            isnative: true
+            official: false
+            logo: partner/tencentcloud.png
+            contact: 刘慧芬
+            contactphone: 13818733964
+            rangeofservice: ["大数据","云计算"]
+            typeofservice: ["产品"]
+            contracttime: 2021-07
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - foreign
+              - alibaba
+              - cncf

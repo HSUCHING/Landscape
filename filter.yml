@@ -7,6 +7,8 @@ filter:
       label: "国内开源主导"
     - value: "foreign"
       label: '国外开源主导'
+    - value: "closed"
+      label: '闭源'
   - title: "项目所属基金会"
     key: "foundation"
     options:
@@ -14,9 +16,19 @@ filter:
       label: 'CNCF'
     - value: 'apache'
       label: 'Apache'
-  - title: "项目发起组织"
-    key: "company"
+    - value: 'linux'
+      label: 'Linux'
+    - value: 'openstack'
+      label: 'OpenStack'
+    - value: 'mozilla'
+      label: 'Mozilla'
+    - value: 'none'
+      label: '无'
+  - title: "组织"
+    key: "organization"
     options:
+    - value: 'btyedance'
+      label: '字节跳动'
     - value: 'alibaba'
       label: '阿里巴巴'
     - value: 'tencent'
@@ -27,14 +39,18 @@ filter:
       label: '百度'
     - value: 'ant'
       label: '蚂蚁金服'
-  - title: "项目版权"
+    - value: 'iFLYTEK'
+      label: '科大讯飞'
+    - value: 'others'
+      label: '其他'
+  - title: "版权类型"
     key: "official"
     options:
     - value: 'notOfficial'
       label: '非商业版'
     - value: 'isOfficial'
       label: '商业版'
-  - title: "组织所在区域"
+  - title: "总部所在区域"
     key: "location"
     options:
     - value: 'Beijing'
@@ -45,23 +61,86 @@ filter:
       label: '杭州'
     - value: 'Shenzhen'
       label: '深圳'
+    - value: 'Suzhou'
+      label: '苏州'
+    - value: 'Hefei'
+      label: '合肥'
+  - title: "产品服务类型"
+    key: "serviceType"
+    options:
+    - value: 'Infrastructure'
+      label: '基础件'
+    - value: 'Platform'
+      label: '平台服务'
+    - value: 'Application'
+      label: '应用服务'
+    - value: 'ConsultingSupport'
+      label: '咨询支持'
+    - value: 'TechnologySupport'
+      label: '技术支持'
+    - value: 'AI'
+      label: '人工智能'    
+    - value: 'IoT'
+      label: '物联网' 
+    - value: 'Data'
+      label: '大数据'
+    - value: 'Security'
+      label: '信息安全'
+    - value: 'Geo'
+      label: '空间地理信息'  
+    - value: 'Maintenance'
+      label: '运维平台'  
+  - title: "行业"
+    key: "industries"
+    options:
+    - value: 'Government'
+      label: '政府'
+    - value: 'InformationTechnology'
+      label: '科技'
+    - value: 'General'
+      label: '通用'
+    - value: 'Industry'
+      label: '工业'
+    - value: 'Finance'
+      label: '金融'
+    - value: 'Operator'
+      label: '运营商'
+    - value: 'Health'
+      label: '医疗健康'
+    - value: 'Automotive'
+      label: '自动驾驶'
+    - value: 'Education'
+      label: '教育'
+    - value: 'Media'
+      label: '媒体'
+    - value: 'Agriculture'
+      label: '农业'
+    - value: 'Marketing'
+      label: '市场营销'                             
   tags:
-    - title: "开源景观"
+    - title: "中国信创"
       filters:
-      - key: "open"
+      - key: "localization"
         options:
-        - "nation"
-        - "foreign"
+        - "china"
     - title: "上海地区"
       filters:
-      - key: "open"
-        options:
-        - "nation"
       - key: "location"
         options:
         - "Shanghai"
-    - title: "认证的 K8s"
+    - title: "大数据股份-悟能系列"
       filters:
-        - key: "foundation"
+        - key: "SHDATA-ProductType"
           options:
-          - "cncf"
+          - "SHDATA-WN"
+    - title: "大数据股份-悟空系列"
+      filters:
+        - key: "SHDATA-ProductType"
+          options:
+          - "SHDATA-WK"
+    - title: "大数据股份-悟净系列"
+      filters:
+        - key: "SHDATA-ProductType"
+          options:
+          - "SHDATA-WJ"
+

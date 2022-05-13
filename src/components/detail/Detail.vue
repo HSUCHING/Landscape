@@ -70,10 +70,10 @@
             </el-col>
             <el-col :span="8">
               <el-form ref="form" :model="data" label-width="80px" label-position="left" size="small">
-                <el-form-item v-for="(value, index) in data.service" :key="index" :label="value.name">
+                <el-form-item v-for="(value, index) in data.service" style="margin:0 0 5px 0 !important;" :key="index" :label="value.name">
                   <el-tag
                     v-for="tag in value.value"
-                    :key="tag">
+                    :key="tag" style="margin:0 5px 0 0 !important">
                     {{tag}}
                   </el-tag>
                 </el-form-item>
@@ -252,7 +252,6 @@ export default {
 <style>
 .product-dialog.el-dialog {
   padding: 20px;
-  //max-height: 540px;
   width: 95%;
   max-width: 1200px;
 }
@@ -262,7 +261,7 @@ export default {
 }
 
 .product-dialog .el-dialog__header {
-  //display: none;
+
 }
 
 .detail_image_container {

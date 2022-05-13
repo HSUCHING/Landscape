@@ -43,6 +43,16 @@ module.exports = {
     proxy: {
       "/repos": {
         target: "https://landscape.opensourcecloud.cn"
+      },
+      "/mock": {
+        target: "http://api.spirare.art",
+        // changeOrigin:true,
+        pathRewrite: { '^/mock': '' }
+      },
+      "/proxy": {
+        target: 'https://open.feishu.cn',
+        changeOrigin:true,
+        pathRewrite: { '^/proxy': '' }
       }
     }
   },

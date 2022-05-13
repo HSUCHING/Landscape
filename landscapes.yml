@@ -13,182 +13,183 @@ landscape:
     subcategories:
     - subcategory:
       name: 政府行业
+      priority: 1
       items:
-      - item:
-        name: OpenYurt
-        description: >-
-           OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-           强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-           Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-           Serverless/FaaS、异构资源支持等能力。OpenYurt
-           能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
-        homepage_url: 'https://github.com/alibaba/openyurt'
-        repo_url: 'https://github.com/alibaba/openyurt'
-        isopen: true
-        isnative: true
-        logo: app/edge/OpenYurt.png
-        filter:
-          - nation
-          - apache
-      - item:
-        name: KubeEdge
-        description: >-
-           KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-           它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-           2.0的许可。并且完全免费供个人或商业使用。
-        homepage_url: 'https://github.com/alibaba/openyurt'
-        repo_url: https://github.com/kubeedge/kubeedge
-        isopen: true
-        isnative: true
-        official: false
-        logo: app/edge/KubeEdge.png
-        tags:
-        - name: CNCF
-          value: 毕业
-        - name: LF
-          value: 项目
-        - name: OPS
-          value: 开源软件
-        filter:
-          - foreign
-          - alibaba
-          - cncf
-          - Shanghai
-      - item:
-        name: OpenYurt
-        description: >-
-          OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-          强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-          Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-          Serverless/FaaS、异构资源支持等能力。OpenYurt
-          能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
-        homepage_url: 'https://github.com/alibaba/openyurt'
-        repo_url: 'https://github.com/alibaba/openyurt'
-        isopen: true
-        isnative: true
-        logo: app/edge/OpenYurt.png
-        filter:
-          - nation
-          - apache
-      - item:
-        name: KubeEdge
-        description: >-
-          KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-          它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-          2.0的许可。并且完全免费供个人或商业使用。
-        homepage_url: 'https://github.com/alibaba/openyurt'
-        repo_url: https://github.com/kubeedge/kubeedge
-        isopen: true
-        isnative: true
-        official: false
-        logo: app/edge/KubeEdge.png
-        tags:
+        - item:
+          name: 科大讯飞（上海）科技有限公司
+          description: >-
+            科大讯飞（上海）科技有限公司,主要服务内容:移动政务平台合作
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: 'https://github.com/alibaba/openyurt'
+          isopen: true
+          isnative: true
+          contact: 沈瑜华
+          contactphone: 021-61390745-85
+          rangeofservice: ["移动政务"]
+          typeofservice: ["技术"]
+          contracttime: 2020-12
+          logo: product/iflytek.png
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ['Hefei',"Shanghai"]
+            - name: industries
+              value: ['Government','InformationTechnology','General']
+            - name: serviceType
+              value: ['Application','Platform']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['iFLYTEK']    
+        - item:
+          name: 上海仪电数字技术股份有限公司
+          description: >-
+            上海仪电数字技术股份有限公司,主要服务内容:移动政务平台合作
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: https://github.com/kubeedge/kubeedge
+          isopen: true
+          isnative: true
+          official: false
+          contact: 王远霖
+          contactphone: 021-34280766
+          rangeofservice: ["移动政务"]
+          typeofservice: ["技术"]
+          contracttime: 2020-12
+          logo: product/INESA.png
+          tags:
           - name: CNCF
             value: 毕业
           - name: LF
             value: 项目
           - name: OPS
             value: 开源软件
-            address: Beijing
-        filter:
-          - foreign
-          - alibaba
-          - cncf
-      - item:
-        name: OpenYurt
-        description: >-
-          OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-          强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-          Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-          Serverless/FaaS、异构资源支持等能力。OpenYurt
-          能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
-        homepage_url: 'https://github.com/alibaba/openyurt'
-        repo_url: 'https://github.com/alibaba/openyurt'
-        isopen: true
-        isnative: true
-        logo: app/edge/OpenYurt.png
-        filter:
-          - nation
-          - apache
-      - item:
-        name: KubeEdge
-        description: >-
-          KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-          它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-          2.0的许可。并且完全免费供个人或商业使用。
-        homepage_url: 'https://github.com/alibaba/openyurt'
-        repo_url: https://github.com/kubeedge/kubeedge
-        isopen: true
-        isnative: true
-        official: false
-        logo: app/edge/KubeEdge.png
-        tags:
-          - name: CNCF
-            value: 毕业
-          - name: LF
-            value: 项目
-          - name: OPS
-            value: 开源软件
-            address: Beijing
-        filter:
-          - foreign
-          - alibaba
-          - cncf
-      - item:
-        name: KubeEdge
-        description: >-
-          KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-          它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-          2.0的许可。并且完全免费供个人或商业使用。
-        homepage_url: 'https://github.com/alibaba/openyurt'
-        repo_url: https://github.com/kubeedge/kubeedge
-        isopen: true
-        isnative: true
-        official: false
-        logo: app/edge/KubeEdge.png
-        tags:
-          - name: CNCF
-            value: 毕业
-          - name: LF
-            value: 项目
-          - name: OPS
-            value: 开源软件
-            address: Beijing
-        filter:
-          - foreign
-          - alibaba
-          - cncf
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ['Shanghai']
+            - name: industries
+              value: ['Government']
+            - name: serviceType
+              value: ['Application']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']            
+        - item:
+          name: 上海胜狮软件科技有限公司
+          description: >-
+            上海胜狮软件科技有限公司,主要服务内容:移动政务平台合作
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: 'https://github.com/alibaba/openyurt'
+          isopen: true
+          isnative: true
+          contact: 赵睿
+          contactphone: 18602102567
+          rangeofservice: ["移动政务"]
+          typeofservice: ["技术"]
+          contracttime: 2020-12
+          logo: product/shengshi.png
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government']
+            - name: serviceType
+              value: ['TechnologySupport','Application']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+        - item:
+          name: 上海地听信息科技有限公司
+          description: >-
+            上海地听信息科技有限公司,主要服务内容: 防洪、联汛
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: https://github.com/kubeedge/kubeedge
+          isopen: true
+          isnative: true
+          official: false
+          contact: 茅佳颖
+          contactphone: 021-52807002
+          rangeofservice: ["防洪","联讯"]
+          typeofservice: ["技术"]
+          contracttime: 2021-08
+          logo: product/diting.png
+          tags:
+            - name: CNCF
+              value: 毕业
+            - name: LF
+              value: 项目
+            - name: OPS
+              value: 开源软件
+              address: Beijing
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government']
+            - name: serviceType
+              value: ['TechnologySupport']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+            - name: SHDATA-ProductType
+              value: ['SHDATA-WK']
     - subcategory:
       name: 智慧城市
+      priority: 1
       items:
         - item:
-          name: OpenYurt
+          name: 上海市测绘院
           description: >-
-            OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-            强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-            Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-            Serverless/FaaS、异构资源支持等能力。OpenYurt
-            能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+            上海市测绘院,主要服务内容:地图资源
           homepage_url: 'https://github.com/alibaba/openyurt'
           repo_url: 'https://github.com/alibaba/openyurt'
           isopen: true
           isnative: true
-          logo: app/edge/OpenYurt.png
+          contact: 吴张峰
+          contactphone: 13816707527
+          rangeofservice: ["地图资源"]
+          typeofservice: ["资源"]
+          contracttime: 2020-08
+          logo: product/SHcehuiyuan.png
           filter:
-            - nation
-            - apache
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government']
+            - name: serviceType
+              value: ['TechnologySupport','Data']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+            - name: SHDATA-ProductType
+              value: ['SHDATA-WK']
         - item:
-          name: KubeEdge
+          name: 上海市城乡建设和交通发展研究院
           description: >-
-            KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-            它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-            2.0的许可。并且完全免费供个人或商业使用。
+            上海市城乡建设和交通发展研究院,主要服务内容:地图数据
           homepage_url: 'https://github.com/alibaba/openyurt'
           repo_url: https://github.com/kubeedge/kubeedge
           isopen: true
           isnative: true
           official: false
-          logo: app/edge/KubeEdge.png
+          contact: 刘贤明
+          contactphone: 18918388329
+          rangeofservice: ["地图资源"]
+          typeofservice: ["资源"]
+          contracttime: 2020-08
+          logo: product/Transportation-Map.png
           tags:
             - name: CNCF
               value: 毕业
@@ -198,87 +199,276 @@ landscape:
               value: 开源软件
               address: Beijing
           filter:
-            - foreign
-            - alibaba
-            - cncf
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government']
+            - name: serviceType
+              value: ['TechnologySupport']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+            - name: SHDATA-ProductType
+              value: ['SHDATA-WK']
+        - item:
+          name: 上海城市地理信息系统发展有限公司
+          description: >-
+            上海城市地理信息系统发展有限公司,主要服务内容:功能开发
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: 'https://github.com/alibaba/openyurt'
+          isopen: true
+          isnative: true
+          contact: 黄琦
+          contactphone: 13301663078
+          rangeofservice: ["地图开发"]
+          typeofservice: ["技术"]
+          contracttime: 2020-08
+          logo: product/shanghaicityGIS.png
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government']
+            - name: serviceType
+              value: ['TechnologySupport','Geo']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+            - name: SHDATA-ProductType
+              value: ['SHDATA-WK']
+        - item:
+          name: 易智瑞信息技术有限公司
+          description: >-
+            易智瑞信息技术有限公司, 主要服务内容:GS地图引擎
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: https://github.com/kubeedge/kubeedge
+          isopen: true
+          isnative: true
+          official: false
+          contact: 张乾乾
+          contactphone: 13901707509
+          rangeofservice: ["GS地图引擎"]
+          typeofservice: ["技术"]
+          contracttime: 2020-08
+          logo: product/egis.png
+          tags:
+            - name: CNCF
+              value: 毕业
+            - name: LF
+              value: 项目
+            - name: OPS
+              value: 开源软件
+              address: Beijing
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government','General']
+            - name: serviceType
+              value: ['TechnologySupport','Geo']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+            - name: SHDATA-ProductType
+              value: ['SHDATA-WK']
+        - item:
+          name: 本影（上海）网络科技有限公司
+          description: >-
+            本影（上海）网络科技有限公司,主要服务内容: 地图引擎
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: 'https://github.com/alibaba/openyurt'
+          isopen: true
+          isnative: true
+          contact: 熊灿
+          contactphone: 18019469332
+          rangeofservice: ["地图引擎"]
+          typeofservice: ["技术"]
+          contracttime: 2020-10
+          logo: product/aircim.png
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government','General']
+            - name: serviceType
+              value: ['TechnologySupport','Geo']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+            - name: SHDATA-ProductType
+              value: ['SHDATA-WK']
+        - item:
+          name: 苍穹数码技术股份有限公司
+          description: >-
+            苍穹数码技术股份有限公司,主要服务内容:地图引擎
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: https://github.com/kubeedge/kubeedge
+          isopen: true
+          isnative: true
+          official: false
+          contact: 余春
+          contactphone: 13402090640
+          rangeofservice: ["地图引擎"]
+          typeofservice: ["技术"]
+          contracttime: 2021-04
+          logo: product/KQGEO.png
+          tags:
+            - name: CNCF
+              value: 毕业
+            - name: LF
+              value: 项目
+            - name: OPS
+              value: 开源软件
+              address: Beijing
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government','General']
+            - name: serviceType
+              value: ['TechnologySupport']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+            - name: SHDATA-ProductType
+              value: ['SHDATA-WK']
+        - item:
+          name: 上海芯翌智能科技有限公司
+          description: >-
+            上海芯翌智能科技有限公司,主要服务内容:人工智能
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: 'https://github.com/alibaba/openyurt'
+          isopen: true
+          isnative: true
+          contact: 杨昊
+          contactphone: xxxxxxxxxxx
+          rangeofservice: ["人工智能"]
+          typeofservice: ["技术"]
+          contracttime: 2021-06
+          logo: product/xforwardai.png
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government','General']
+            - name: serviceType
+              value: ['TechnologySupport', 'Application']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+            - name: SHDATA-ProductType
+              value: ['SHDATA-WN']
+        - item:
+          name: 上海微趣网络科技有限公司
+          description: >-
+            上海微趣网络科技有限公司,主要服务内容:舆情数据服务
+          homepage_url: 'https://github.com/alibaba/openyurt'
+          repo_url: https://github.com/kubeedge/kubeedge
+          isopen: true
+          isnative: true
+          official: false
+          contact: 顾程
+          contactphone: 15221141319
+          rangeofservice: ["舆情","数据服务"]
+          typeofservice: ["服务"]
+          contracttime: 2021-06
+          logo: product/abitio.png
+          tags:
+            - name: CNCF
+              value: 毕业
+            - name: LF
+              value: 项目
+            - name: OPS
+              value: 开源软件
+              address: Beijing
+          filter:
+            - name: open
+              value: ['closed']
+            - name: location
+              value: ["Shanghai"]
+            - name: industries
+              value: ['Government','Data']
+            - name: serviceType
+              value: ['Platform']
+            - name: foundation
+              value: ['none']
+            - name: organization
+              value: ['others']
+            - name: SHDATA-ProductType
+              value: ['SHDATA-WN']                                     
     - subcategory:
       name: 金融行业
-      items:
-        - item:
-          name: OpenYurt
-          description: >-
-            OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-            强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-            Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-            Serverless/FaaS、异构资源支持等能力。OpenYurt
-            能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
-          homepage_url: 'https://github.com/alibaba/openyurt'
-          repo_url: 'https://github.com/alibaba/openyurt'
-          isopen: true
-          isnative: true
-          logo: app/edge/OpenYurt.png
-          filter:
-            - nation
-            - apache
-        - item:
-          name: KubeEdge
-          description: >-
-            KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-            它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-            2.0的许可。并且完全免费供个人或商业使用。
-          homepage_url: 'https://github.com/alibaba/openyurt'
-          repo_url: https://github.com/kubeedge/kubeedge
-          isopen: true
-          isnative: true
-          official: false
-          logo: app/edge/KubeEdge.png
-          tags:
-            - name: CNCF
-              value: 毕业
-            - name: LF
-              value: 项目
-            - name: OPS
-              value: 开源软件
-              address: Beijing
-          filter:
-            - foreign
-            - alibaba
-            - cncf  
+      items: []
   - category: 数据资产
     name: 数据资产
     color: rgb(46,97,107)
     subcategories:
       - subcategory:
         name: 数据平台
+        priority: 1
         items:
           - item:
-            name: OpenYurt
+            name: 上海奥腾计算机科技有限公司
             description: >-
-              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-              Serverless/FaaS、异构资源支持等能力。OpenYurt
-              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+              上海奥腾计算机科技有限公司,主要服务内容:数据资产平台
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: 'https://github.com/alibaba/openyurt'
-            isopen: true
+            isopen: false
             isnative: true
-            logo: app/edge/OpenYurt.png
+            contact: 吕美武
+            contactphone: 13311620286
+            rangeofservice: ["数据中台","数据资产"]
+            typeofservice: ["产品"]
+            contracttime: 2020-11
+            logo: product/oceandatum.png
             filter:
-              - nation
-              - apache
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government','Data']
+              - name: serviceType
+                value: ['Platform']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']   
           - item:
-            name: KubeEdge
+            name: 北京九章云极科技有限公司
             description: >-
-              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-              2.0的许可。并且完全免费供个人或商业使用。
+              北京九章云极科技有限公司, 主要服务内容: 数据中台、AI
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: https://github.com/kubeedge/kubeedge
-            isopen: true
+            isopen: false
             isnative: true
             official: false
-            logo: app/edge/KubeEdge.png
+            contact: 王俊鹏
+            contactphone: 010-62668566
+            rangeofservice: ["数据中台","数据资产"]
+            typeofservice: ["产品","技术"]
+            contracttime: 2021-04
+            logo: partner/datacanvas.png
             tags:
               - name: CNCF
                 value: 毕业
@@ -288,37 +478,35 @@ landscape:
                 value: 开源软件
                 address: Beijing
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Beijing","Shanghai"]
+              - name: industries
+                value: ['Government','Data']
+              - name: serviceType
+                value: ['Platform']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']
           - item:
-            name: OpenYurt
+            name: 腾讯云计算（北京）有限责任公司
             description: >-
-              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-              Serverless/FaaS、异构资源支持等能力。OpenYurt
-              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
-            homepage_url: 'https://github.com/alibaba/openyurt'
-            repo_url: 'https://github.com/alibaba/openyurt'
-            isopen: true
-            isnative: true
-            logo: app/edge/OpenYurt.png
-            filter:
-              - nation
-              - apache
-          - item:
-            name: KubeEdge
-            description: >-
-              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-              2.0的许可。并且完全免费供个人或商业使用。
+              腾讯云计算（北京）有限责任公司,主要服务内容:腾讯云产品或服务
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: https://github.com/kubeedge/kubeedge
-            isopen: true
+            isopen: false
             isnative: true
             official: false
-            logo: app/edge/KubeEdge.png
+            contact: 曹吾益
+            contactphone: 
+            rangeofservice: ["数据中台", "大数据"]
+            typeofservice: ["产品","云服务"]
+            contracttime: 2021-07
+            logo: product/tencentcloud.png
             tags:
               - name: CNCF
                 value: 毕业
@@ -328,37 +516,35 @@ landscape:
                 value: 开源软件
                 address: Beijing
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shenzhen","Shanghai"]
+              - name: industries
+                value: ['Government','Data','General']
+              - name: serviceType
+                value: ['Platform','Infrastructure']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['tencent']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']
           - item:
-            name: OpenYurt
+            name: 阿里云计算有限公司
             description: >-
-              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-              Serverless/FaaS、异构资源支持等能力。OpenYurt
-              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
-            homepage_url: 'https://github.com/alibaba/openyurt'
-            repo_url: 'https://github.com/alibaba/openyurt'
-            isopen: true
-            isnative: true
-            logo: app/edge/OpenYurt.png
-            filter:
-              - nation
-              - apache
-          - item:
-            name: KubeEdge
-            description: >-
-              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-              2.0的许可。并且完全免费供个人或商业使用。
+              阿里云计算有限公司,主要服务内容:阿里云产品或服务
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: https://github.com/kubeedge/kubeedge
-            isopen: true
+            isopen: false
             isnative: true
             official: false
-            logo: app/edge/KubeEdge.png
+            contact: 许逸春
+            contactphone: 
+            rangeofservice: ["数据中台", "大数据"]
+            typeofservice: ["产品","云服务"]
+            contracttime: 2021-07
+            logo: product/alibabacloud.png
             tags:
               - name: CNCF
                 value: 毕业
@@ -368,21 +554,35 @@ landscape:
                 value: 开源软件
                 address: Beijing
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Hangzhou","Shanghai"]
+              - name: industries
+                value: ['Government','Data','General']
+              - name: serviceType
+                value: ['Platform','Infrastructure']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['alibaba']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']
           - item:
-            name: KubeEdge
+            name: 华为技术有限公司
             description: >-
-              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-              2.0的许可。并且完全免费供个人或商业使用。
+              华为技术有限公司, 主要服务内容:大数据、云计算
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: https://github.com/kubeedge/kubeedge
-            isopen: true
+            isopen: false
             isnative: true
             official: false
-            logo: app/edge/KubeEdge.png
+            contact: 陈汝东
+            contactphone: 18602471210
+            rangeofservice: ["数据中台"]
+            typeofservice: ["产品"]
+            contracttime: 2021-06
+            logo: product/huawei.png
             tags:
               - name: CNCF
                 value: 毕业
@@ -392,83 +592,196 @@ landscape:
                 value: 开源软件
                 address: Beijing
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shenzhen"]
+              - name: industries
+                value: ['Government','Data','General']
+              - name: serviceType
+                value: ['Platform','Infrastructure']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']
+          - item:
+            name: 中电科数智科技有限公司
+            description: >-
+              中电科数智科技有限公司, 主要服务内容:大数据、物联网
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: false
+            isnative: true
+            official: false
+            contact: 洪浣宁
+            contactphone: 13916759610
+            rangeofservice: ["大数据","物联网"]
+            typeofservice: ["产品","技术"]
+            contracttime: 2021-06
+            logo: product/CETC.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Platform','Application','IoT']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']
+          - item:
+            name: 同盾科技有限公司
+            description: >-
+              同盾科技有限公司, 主要服务内容: 大数据平台
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: false
+            isnative: true
+            official: false
+            contact: 周慧敏
+            contactphone: 18616632892
+            rangeofservice: ["数据中台"]
+            typeofservice: ["产品","技术"]
+            contracttime: 2020-08
+            logo: product/tongdun.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Hangzhou","Shanghai"]
+              - name: industries
+                value: ['Government','Finance']
+              - name: serviceType
+                value: ['Platform','Application','AI','Data']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']           
       - subcategory:
         name: 数据加工
         items:
           - item:
-            name: OpenYurt
+            name: 北京海致网聚信息技术有限公司
             description: >-
-              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-              Serverless/FaaS、异构资源支持等能力。OpenYurt
-              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+              北京海致网聚信息技术有限公司,主要服务内容: 数据模型平台
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: 'https://github.com/alibaba/openyurt'
             isopen: true
             isnative: true
-            logo: app/edge/OpenYurt.png
+            contact: 王海
+            contactphone: 18600361499
+            rangeofservice: ["数据模型平台"]
+            typeofservice: ["产品","技术"]
+            contracttime: 2020-05
+            logo: product/haizhi.png
             filter:
-              - nation
-              - apache
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Platform','Data']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']  
           - item:
-            name: KubeEdge
+            name: 上海天壤智能科技有限公司
             description: >-
-              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-              2.0的许可。并且完全免费供个人或商业使用。
+              上海天壤智能科技有限公司,主要服务内容: 数据模型平台
             homepage_url: 'https://github.com/alibaba/openyurt'
-            repo_url: https://github.com/kubeedge/kubeedge
+            repo_url: 'https://github.com/alibaba/openyurt'
             isopen: true
             isnative: true
-            official: false
-            logo: app/edge/KubeEdge.png
-            tags:
-              - name: CNCF
-                value: 毕业
-              - name: LF
-                value: 项目
-              - name: OPS
-                value: 开源软件
-                address: Beijing
+            contact: 贾巍
+            contactphone: 18626850019
+            rangeofservice: ["知识图谱"]
+            typeofservice: ["产品","技术","服务"]
+            contracttime: 2020-05
+            logo: product/tianrang.png
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Hangzhou","Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Platform','Application','AI']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']  
       - subcategory:
         name: 数据采集
+        items: []
+      - subcategory:
+        name: 数据服务
+        priority: 1
         items:
           - item:
-            name: OpenYurt
+            name: 银联智策顾问（上海）有限公司
             description: >-
-              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-              Serverless/FaaS、异构资源支持等能力。OpenYurt
-              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+              银联智策顾问（上海）有限公司,主要服务内容:数据服务
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: 'https://github.com/alibaba/openyurt'
-            isopen: true
-            isnative: true
-            logo: app/edge/OpenYurt.png
+            isopen: false
+            isnative: false
+            contact: 史周颖
+            contactphone: 13761879493
+            rangeofservice: ["数据服务"]
+            typeofservice: ["服务"]
+            contracttime: 2020-10
+            logo: product/unionpay.png
             filter:
               - nation
               - apache
           - item:
-            name: KubeEdge
+            name: 上海艾天科技有限公司
             description: >-
-              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-              2.0的许可。并且完全免费供个人或商业使用。
+              上海艾天科技有限公司,主要服务内容:数据服务
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: https://github.com/kubeedge/kubeedge
-            isopen: true
-            isnative: true
+            isopen: false
+            isnative: false
             official: false
-            logo: app/edge/KubeEdge.png
+            contact: 王刚
+            contactphone: 17717057167
+            rangeofservice: ["数据服务","移动政务"]
+            typeofservice: ["服务"]
+            contracttime: 2020-10
+            logo: product/aitian.png
             tags:
               - name: CNCF
                 value: 毕业
@@ -478,40 +791,131 @@ landscape:
                 value: 开源软件
                 address: Beijing
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['TechnologySupport','Application']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']  
+          - item:
+            name: 中国联合网络通信有限公司上海分公司
+            description: >-
+              中国联合网络通信有限公司上海分公司,主要服务内容:数据服务
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: false
+            isnative: false
+            official: false
+            contact: 陈兰
+            contactphone: 18601723872
+            rangeofservice: ["数据服务"]
+            typeofservice: ["服务"]
+            contracttime: 2020-09
+            logo: product/chinaunicom.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government','Opeartor']
+              - name: serviceType
+                value: ['TechnologySupport','Application']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']                 
       - subcategory:
         name: 数据治理
         items:
           - item:
-            name: OpenYurt
+            name: 上海德拓信息技术股份有限公司
             description: >-
-              OpenYurt 是阿里巴巴开源的首个边缘计算云原生项目。该项目主打“云边一体化”概念，依托原生 Kubernetes
-              强大的容器编排、调度能力，通过众多边缘计算应用场景锤炼，实现了一整套对原生
-              Kubernetes“零”侵入的边缘云原生方案，提供诸如边缘自治、高效运维通道、边缘单元化管理、边缘流量拓扑管理，安全容器、边缘
-              Serverless/FaaS、异构资源支持等能力。OpenYurt
-              能帮用户解决在海量边、端资源上完成大规模应用交付、运维、管控的问题，并提供中心服务下沉通道，实现和边缘计算应用的无缝对接。
+              上海德拓信息技术股份有限公司,主要服务内容:数据治理
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: false
+            isnative: true
+            contact: 殷正宏
+            contactphone: 13917330715
+            rangeofservice: ["数据治理"]
+            typeofservice: ["产品","服务"]
+            contracttime: 2020-08
+            logo: product/DATATOM.png
+            filter:
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['TechnologySupport','Application']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']  
+      - subcategory:
+        name: 数据分析
+        items:
+          - item:
+            name: 同盾科技有限公司
+            description: >-
+              同盾科技有限公司,主要服务内容: 大数据平台、决策分析平台、机器学习平台、复杂网络等数据分析产品
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: 'https://github.com/alibaba/openyurt'
             isopen: true
             isnative: true
-            logo: app/edge/OpenYurt.png
+            contact: 周慧敏
+            contactphone: 18616632892
+            rangeofservice: ["数据分析","决策分析"]
+            typeofservice: ["产品","技术"]
+            contracttime: 2020-08
+            logo: product/tongdun.png
             filter:
-              - nation
-              - apache
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["hangzhou","Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Application','AI','Data']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']  
           - item:
-            name: KubeEdge
+            name: 同济大学城市风险管理研究院
             description: >-
-              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-              2.0的许可。并且完全免费供个人或商业使用。
+              同济大学城市风险管理研究院, 主要服务内容: 课题研究
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: https://github.com/kubeedge/kubeedge
-            isopen: true
-            isnative: true
+            isopen: false
+            isnative: false
             official: false
-            logo: app/edge/KubeEdge.png
+            contracttime: 2021-07
+            logo: product/tongjicityrisk.png
             tags:
               - name: CNCF
                 value: 毕业
@@ -521,12 +925,20 @@ landscape:
                 value: 开源软件
                 address: Beijing
             filter:
-              - foreign
-              - alibaba
-              - cncf
-      - subcategory:
-        name: 数据分析
-        items:
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government','Education']
+              - name: serviceType
+                value: ['TechnologySupport','Application']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']  
           - item:
             name: 奥腾-数据分析系统
             description: >-
@@ -535,34 +947,198 @@ landscape:
             repo_url: 'https://github.com/alibaba/openyurt'
             isopen: true
             isnative: true
-            logo: product/oceandatum-dataanalysis.png
+            contact: 吕美武
+            contactphone: 13311620286
+            rangeofservice: ["数据中台","数据资产"]
+            typeofservice: ["产品"]
+            contracttime: 2020-11
+            logo: product/oceandatum-data_analysis.png
             filter:
-              - nation
-              - apache
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['TechnologySupport','Application']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WN']                          
+  - category: 安全
+    name: 安全
+    color: rgb(46,97,107)
+    subcategories:
+      - subcategory:
+        name: 网络安全
+        items:
           - item:
-            name: KubeEdge
+            name: 杭州虎符网络有限公司
             description: >-
-              KubeEdge是一个开源系统，用于将本机容器化的应用程序编排功能扩展到Edge上的主机，
-              它基于kubernetes构建，并为网络，应用程序提供基本的基础架构支持。云和边缘之间的部署和元数据同步。 Kubeedge已获得Apache
-              2.0的许可。并且完全免费供个人或商业使用。
+              杭州虎符网络有限公司,主要服务内容:零信任
             homepage_url: 'https://github.com/alibaba/openyurt'
-            repo_url: https://github.com/kubeedge/kubeedge
+            repo_url: 'https://github.com/alibaba/openyurt'
             isopen: true
             isnative: true
-            official: false
-            logo: app/edge/KubeEdge.png
-            tags:
-              - name: CNCF
-                value: 毕业
-              - name: LF
-                value: 项目
-              - name: OPS
-                value: 开源软件
-                address: Beijing
+            contact: 董明武
+            contactphone: 13810224887
+            rangeofservice: ["安全","零信任"]
+            typeofservice: ["产品","服务"]
+            contracttime: 2020-01
+            logo: product/tiger.png
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Hangzhou"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['TechnologySupport','Application','Security']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WJ']  
+      - subcategory:
+        name: 数据安全
+        priority: 1
+        items:
+          - item:
+            name: 上海安恒智慧城市安全技术有限公司
+            description: >-
+              上海安恒智慧城市安全技术有限公司, 主要服务内容: 数据安全
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            contact: 朱波
+            contactphone: 18616816813
+            rangeofservice: ["数据安全"]
+            typeofservice: ["服务","技术"]
+            contracttime: 2021-06
+            logo: product/DAS-Security.png
+            filter:
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['TechnologySupport','Application','Security']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WJ']  
+      - subcategory:
+        name: 应用安全
+        items: []
+      - subcategory:
+        name: 业务安全
+        items:
+          - item:
+            name: 上海市信息安全测评认证中心
+            description: >-
+              上海市信息安全测评认证中心, 主要服务内容: 安全技术测评
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            contact: 杨盛
+            contactphone: 18121385505
+            rangeofservice: ["安全测评"]
+            typeofservice: ["服务"]
+            contracttime: 2020-12
+            logo: product/security.png
+            filter:
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['ConsultingSupport','Security']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WJ']    
+      - subcategory:
+        name: 终端安全
+        items: []
+      - subcategory:
+        name: 身份安装
+        items:
+          - item:
+            name: 杭州虎符网络有限公司
+            description: >-
+              杭州虎符网络有限公司, 主要服务内容:零信任
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            contact: 董明武
+            contactphone: 13810224887
+            rangeofservice: ["安全","零信任"]
+            typeofservice: ["产品"]
+            contracttime: 2020-01
+            logo: partner/tiger.png            
+            filter:
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Hangzhou"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['TechnologySupport','Application','Security']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WJ']  
+      - subcategory:
+        name: 安全服务
+        items:
+          - item:
+            name: 北京奇虎科技有限公司
+            description: >-
+              北京奇虎科技有限公司,主要服务内容:安全培训
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            isnative: true
+            contact: 王景昊
+            contactphone: 	15313187681
+            rangeofservice: ["安全","培训"]
+            typeofservice: ["服务"]
+            contracttime: 2020-11
+            logo: product/360.png
+            filter:
+              - name: open
+                value: ['closed']
+              - name: location
+                value: ["Beijing"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['ConsultingSupport','Security']
+              - name: foundation
+                value: ['none']
+              - name: organization
+                value: ['others']
+              - name: SHDATA-ProductType
+                value: ['SHDATA-WJ']
 - tab: 生态伙伴图景
   tab_index: 1
   url: Paterner
@@ -574,80 +1150,90 @@ landscape:
     name: 战略合作伙伴
     color: rgb(109,61,143)
     subcategories:
-    - subcategory:
-      name: 上市公司
-      items:
-      - item:
-        name: 易智瑞信息技术有限公司
-        description: >-
-           易智瑞信息技术有限公司
-        homepage_url: 'https://github.com/alibaba/openyurt'
-        repo_url: 'https://github.com/alibaba/openyurt'
-        isopen: true
-        isnative: true
-        logo: partner/egis.png
-        filter:
-          - nation
-          - apache
-      - item:
-        name: 北京奇虎科技有限公司
-        description: >-
-           北京奇虎科技有限公司
-        homepage_url: 'https://github.com/alibaba/openyurt'
-        repo_url: https://github.com/kubeedge/kubeedge
-        isopen: true
-        isnative: true
-        official: false
-        logo: partner/360.png
-        tags:
-        - name: CNCF
-          value: 毕业
-        - name: LF
-          value: 项目
-        - name: OPS
-          value: 开源软件
-        filter:
-          - foreign
-          - alibaba
-          - cncf
-          - Shanghai
-    - subcategory:
-      name: 初创企业
-      items:
-        - item:
-          name: 北京九章云极科技有限公司
-          description: >-
-            北京九章云极科技有限公司
-          homepage_url: 'https://github.com/alibaba/openyurt'
-          repo_url: 'https://github.com/alibaba/openyurt'
-          isopen: true
-          isnative: true
-          logo: partner/datacanvas.png
-          filter:
-            - nation
-            - apache
-        - item:
-          name: 上海芯翌智能科技有限公司
-          description: >-
-            上海芯翌智能科技有限公司
-          homepage_url: 'https://github.com/alibaba/openyurt'
-          repo_url: https://github.com/kubeedge/kubeedge
-          isopen: true
-          isnative: true
-          official: false
-          logo: partner/xforwardai.png
-          tags:
-            - name: CNCF
-              value: 毕业
-            - name: LF
-              value: 项目
-            - name: OPS
-              value: 开源软件
-              address: Beijing
-          filter:
-            - foreign
-            - alibaba
-            - cncf
+      - subcategory:
+        name: 上市公司
+        priority: 1
+        items:
+          - item:
+            name: 易智瑞信息技术有限公司
+            description: >-
+              易智瑞信息技术有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            logo: partner/egis.png
+            filter:
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['ConsultingSupport','Platform','Geo']
+          - item:
+            name: 北京奇虎科技有限公司
+            description: >-
+              北京奇虎科技有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            official: false
+            logo: partner/360.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+            filter:
+              - name: location
+                value: ["Beijing"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['ConsultingSupport','Application','Security']
+      - subcategory:
+        name: 初创企业
+        items:
+          - item:
+            name: 北京九章云极科技有限公司
+            description: >-
+              北京九章云极科技有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            logo: partner/datacanvas.png
+            filter:
+              - name: location
+                value: ["Beijing","Shanghai"]
+              - name: industries
+                value: ['Government','Finance']
+              - name: serviceType
+                value: ['TechnologySupport','Application','AI']
+          - item:
+            name: 上海芯翌智能科技有限公司
+            description: >-
+              上海芯翌智能科技有限公司
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            official: false
+            logo: partner/xforwardai.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['TechnologySupport','Application','AI']
   - category: OEM合作伙伴
     name: OEM合作伙伴
     color: rgb(46,97,107)
@@ -658,24 +1244,36 @@ landscape:
           - item:
             name: 北京安华金和科技有限公司
             description: >-
-              北京安华金和科技有限公司
+              北京安华金和科技有限公司,主要服务内容:数据库安全审计（DAS）、数据脱敏(静态脱敏SDMS)、数据脱敏(动态脱敏DDMS)、数据库安全防护（运维防护DOMS)、数据库安全防护（应用防护DPS)、数据资产梳理（DACS)、数据库安全评估（DSAS）、数据水印产品（DWS)
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: 'https://github.com/alibaba/openyurt'
             isopen: true
-            isnative: true
+            contact: 王军
+            contactphone: 13702007106
+            rangeofservice: ["安全","数据库审计"]
+            typeofservice: ["产品"]
+            contracttime: 2020-07
             logo: partner/DBSEC.png
             filter:
-              - nation
-              - apache
+              - name: location
+                value: ["Beijing"]
+              - name: industries
+                value: ['Government','Finance']
+              - name: serviceType
+                value: ['Application','Security']
           - item:
             name: 杭州虎符网络有限公司
             description: >-
-              杭州虎符网络有限公司
+              杭州虎符网络有限公司,主要服务内容:零信任
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: https://github.com/kubeedge/kubeedge
             isopen: true
-            isnative: true
             official: false
+            contact: 董明武
+            contactphone: 13810224887
+            rangeofservice: ["安全","零信任"]
+            typeofservice: ["产品"]
+            contracttime: 2020-01
             logo: partner/tiger.png
             tags:
               - name: CNCF
@@ -686,33 +1284,107 @@ landscape:
                 value: 开源软件
                 address: Beijing
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: location
+                value: ["Hangzhou"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Security']
+          - item:
+            name: 上海派拉软件股份有限公司
+            description: >-
+              上海派拉软件股份有限公司,主要服务内容:零信任
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            official: false
+            contact: 王星
+            contactphone: 18721262901
+            rangeofservice: ["安全","零信任"]
+            typeofservice: ["产品"]
+            contracttime: 2020-11
+            logo: partner/paraview.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government','General']
+              - name: serviceType
+                value: ['Security']
+          - item:
+            name: 杭州美创科技有限公司
+            description: >-
+              杭州美创科技有限公司,主要服务内容:数据库防水坝、数据库防火墙、数据库透明加密、数据脱敏、数据库审计、医疗防统方、诺亚防勒索、数据防泄漏、数据库漏洞扫描、综合漏洞扫描、业务安全监测、业务安全审计
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            official: false
+            contact: 王星
+            contactphone: 18721262901
+            rangeofservice: ["安全","云计算"]
+            typeofservice: ["产品"]
+            contracttime: 2020-11
+            logo: partner/meichuang.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Security']             
       - subcategory:
         name: 平台服务
+        priority: 1
         items:
           - item:
             name: 上海奥腾计算机科技有限公司
             description: >-
-              上海奥腾计算机科技有限公司
+              上海奥腾计算机科技有限公司,主要服务内容:数据资产平台
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: 'https://github.com/alibaba/openyurt'
             isopen: true
-            isnative: true
+            contact: 吕美武
+            contactphone: 13311620286
+            rangeofservice: ["大数据","数据资产"]
+            typeofservice: ["产品"]
+            contracttime: 2020-11
             logo: partner/oceandatum.png
             filter:
-              - nation
-              - apache
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Application','Data']
           - item:
             name: 上海微趣网络科技有限公司
             description: >-
-              上海微趣网络科技有限公司
+              上海微趣网络科技有限公司,主要服务内容:舆情数据服务
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: https://github.com/kubeedge/kubeedge
             isopen: true
-            isnative: true
             official: false
+            contact: 顾程
+            contactphone: 15221141319
+            rangeofservice: ["大数据","数据资产"]
+            typeofservice: ["产品"]
+            contracttime: 2021-06
             logo: partner/abitio.png
             tags:
               - name: CNCF
@@ -723,15 +1395,100 @@ landscape:
                 value: 开源软件
                 address: Beijing
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Platform','Data']
+          - item:
+            name: 上海合胜计算机科技股份有限公司
+            description: >-
+              上海合胜计算机科技股份有限公司,主要服务内容:派单流程系统
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            official: false
+            contact: 杨朝
+            contactphone: 13301824710
+            rangeofservice: ["派单系统"]
+            typeofservice: ["产品"]
+            contracttime: 2021-07
+            logo: partner/MVS.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - name: location
+                value: ["Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Application']
+          - item:
+            name: 苏州美能华智能科技有限公司
+            description: >-
+              苏州美能华智能科技有限公司,主要服务内容:OCR产品、智慧金融、智慧物流单证识别、智能政务审批系统、高企智能预审、智能合同审阅、智能对话、智慧档案
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: https://github.com/kubeedge/kubeedge
+            isopen: true
+            official: false
+            contact: 邓昕
+            contactphone: 13901723722
+            rangeofservice: ["OCR","智能审批"]
+            typeofservice: ["产品"]
+            contracttime: 2021-02
+            logo: partner/meinenghua.png
+            tags:
+              - name: CNCF
+                value: 毕业
+              - name: LF
+                value: 项目
+              - name: OPS
+                value: 开源软件
+                address: Beijing
+            filter:
+              - name: location
+                value: ["Suzhou","Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Application','Data','AI']
+      - subcategory:
+        name: 硬件服务
+        items:
+          - item:
+            name: 深圳力维智联技术有限公司
+            description: >-
+              深圳力维智联技术有限公司,主要服务内容:融合指挥平台、智能发现一体机
+            homepage_url: 'https://github.com/alibaba/openyurt'
+            repo_url: 'https://github.com/alibaba/openyurt'
+            isopen: true
+            contact: 曹旭晨
+            contactphone: 0755-26525680
+            rangeofservice: ["一体机"]
+            typeofservice: ["硬件"]
+            contracttime: 2021-02
+            logo: partner/znv.png
+            filter:
+              - name: location
+                value: ["Shenzhen","Shanghai"]
+              - name: industries
+                value: ['Government']
+              - name: serviceType
+                value: ['Application','Maintenance']                   
   - category: 渠道合作伙伴
     name: 渠道合作伙伴
     color: rgb(46,97,107)
     subcategories:
       - subcategory:
         name: 金牌渠道
+        priority: 1
         items:
           - item:
             name: 阿里云计算有限公司
@@ -740,12 +1497,15 @@ landscape:
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: 'https://github.com/alibaba/openyurt'
             isopen: true
-            isnative: true
             contact: 
             logo: partner/alibabacloud.png
             filter:
-              - nation
-              - apache
+              - name: location
+                value: ["Hangzhou","Shanghai"]
+              - name: industries
+                value: ['Government','General']
+              - name: serviceType
+                value: ['Application','Infrastructure','Data','Platform']      
           - item:
             name: 腾讯云计算（北京）有限公司
             description: >-
@@ -753,7 +1513,6 @@ landscape:
             homepage_url: 'https://github.com/alibaba/openyurt'
             repo_url: https://github.com/kubeedge/kubeedge
             isopen: true
-            isnative: true
             official: false
             logo: partner/tencentcloud.png
             contact: 刘慧芬
@@ -770,6 +1529,9 @@ landscape:
                 value: 开源软件
                 address: Beijing
             filter:
-              - foreign
-              - alibaba
-              - cncf
+              - name: location
+                value: ["Shenzhen","Shanghai"]
+              - name: industries
+                value: ['Government','General']
+              - name: serviceType
+                value: ['Application','Infrastructure','Data','Platform']     
